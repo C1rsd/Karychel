@@ -1,0 +1,9 @@
+PROYECTO: KARYCHEL V1
+ESTILO VISUAL: Minimalista, Negro OLED, Glassmorphism (Efecto cristal).
+REGLAS DE DESARROLLO:
+1. LOGIN: Solo ID de 8 números (XXXX-XXXX) y PIN de 4. Sin correos ni Google.
+2. MIGRACIÓN: Importar backups .7z de Aniyomi en bloques de 100 elementos. Usar Foreground Service para no detener el proceso al salir de la app.
+3. LECTOR: Basado en el motor de Aniyomi. Implementar cierre inmediato si el giroscopio detecta una sacudida (Modo Pánico).
+4. MONETIZACIÓN: Apartado de donaciones en Ajustes (PayPal, Binance USDT, Payoneer).
+5. TONO: Mensajes del sistema profesionales y directos.
+6.
